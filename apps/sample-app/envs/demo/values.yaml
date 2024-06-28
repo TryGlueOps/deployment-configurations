@@ -1,6 +1,5 @@
 image:
   tag: latest
-  port: 80
 ingress:
   enabled: true
   ingressClassName: public
