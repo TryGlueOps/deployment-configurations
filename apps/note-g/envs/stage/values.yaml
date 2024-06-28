@@ -1,5 +1,5 @@
 image:
-  tag: not-deployed
+  tag: ae1b939
 ingress:
   enabled: true
   ingressClassName: public
