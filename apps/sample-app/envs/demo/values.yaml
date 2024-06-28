@@ -1,0 +1,12 @@
+image:
+  registry: docker.io
+  repository: sample-app
+  tag: latest
+  port: 80
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: example-app.apps.demo.tryglueops.onglueops.com
