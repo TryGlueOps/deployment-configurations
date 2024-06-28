@@ -1,5 +1,5 @@
 image:
-  registry: ghcr.ios
+  registry: ghcr.io
   repository: sample-app
   tag: latest
   port: 80
