@@ -9,4 +9,4 @@ ingress:
   entries:
     - name: public
       hosts:
-        - hostname: test.apps.demo.tryglueops.onglueops.com
+        - hostname: example-app.apps.demo.tryglueops.onglueops.com
