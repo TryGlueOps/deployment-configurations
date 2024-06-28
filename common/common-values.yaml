@@ -1,1 +1,41 @@
+image:
+  registry: ghcr.io
+  port: 8080
 
+
+service:
+  enabled: true
+podDisruptionBudget:
+  enabled: true
+
+
+deployment:
+  replicas: 2
+  enabled: true
+  # livenessProbe:
+  #   httpGet:
+  #     path: /
+  #     port: 8080
+  #   initialDelaySeconds: 10
+  #   periodSeconds: 30
+  #   timeoutSeconds: 30
+  # startupProbe:
+  #   httpGet:
+  #     path: /
+  #     port: 8080
+  #   initialDelaySeconds: 10
+  #   periodSeconds: 30
+  #   timeoutSeconds: 30
+  resources:
+    # requests:
+    #   cpu: 100m
+    #   memory: 256Mi
+    limits:
+      cpu: 1000m
+      memory: 512Mi
+
+ingress:
+  enabled: true
+  ingressClassName: public
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
