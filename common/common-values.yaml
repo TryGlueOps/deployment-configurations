@@ -1,5 +1,5 @@
 image:
-  registry: ghcr.io
+  registry: ghcr.io/tryglueops
   port: 8080
 
 
