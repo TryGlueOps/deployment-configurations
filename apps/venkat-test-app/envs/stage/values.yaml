@@ -1,0 +1,9 @@
+image:
+  tag: aa0afcd
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: venkat-test-app-stage.apps.demo.tryglueops.onglueops.com
