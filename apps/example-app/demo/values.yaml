@@ -1,12 +1,12 @@
 image:
+  registry: docker.io
+  repository: nginx
   tag: latest
+  port: 80
 ingress:
   enabled: true
   ingressClassName: public
   entries:
     - name: public
       hosts:
-        - hostname: httpd-stage.example.com
-
-deployment:
-  replicas: 1
+        - hostname: test.apps.demo.tryglueops.onglueops.com
