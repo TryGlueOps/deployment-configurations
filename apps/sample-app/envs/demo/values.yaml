@@ -1,5 +1,4 @@
 image:
-  repository: sample-app
   tag: latest
   port: 80
 ingress:
