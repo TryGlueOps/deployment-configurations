@@ -1,0 +1,9 @@
+image:
+  tag: not-deployed
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: note-g-stage.apps.demo.tryglueops.onglueops.com
