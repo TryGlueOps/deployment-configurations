@@ -6,4 +6,4 @@ ingress:
   entries:
     - name: public
       hosts:
-        - hostname: sample-app.apps.demo.tryglueops.onglueops.com
+        - hostname: sample-app-prod.apps.demo.tryglueops.onglueops.com
