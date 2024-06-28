@@ -1,0 +1,12 @@
+image:
+  tag: latest
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: httpd-stage.example.com
+
+deployment:
+  replicas: 1

@@ -1,0 +1,12 @@
+image:
+  tag: 2-alpine3.18
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: httpd.example.com
+
+deployment:
+  replicas: 3

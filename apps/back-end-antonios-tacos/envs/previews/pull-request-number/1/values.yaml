@@ -1,0 +1,2 @@
+# configuration for a preview environment based on a specific pull request number
+# since the directory containing this file is named "1", the configuration contained in this file will be applied to PR 1
