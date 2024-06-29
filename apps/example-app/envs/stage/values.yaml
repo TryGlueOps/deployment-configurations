@@ -1,9 +1,9 @@
 image:
-  tag: v0.1.0
+  tag: 52192c5
 ingress:
   enabled: true
   ingressClassName: public
   entries:
     - name: public
       hosts:
-        - hostname: sample-app-prod.apps.demo.tryglueops.onglueops.com
+        - hostname: example-app-stage.apps.demo.tryglueops.onglueops.com
