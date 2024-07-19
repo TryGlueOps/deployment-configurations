@@ -1,0 +1,9 @@
+image:
+  tag: 31578c3
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: cooke-example-stage.apps.demo.tryglueops.onglueops.com
