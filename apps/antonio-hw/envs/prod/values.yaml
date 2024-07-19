@@ -1,0 +1,9 @@
+image:
+  tag: v0.2.0
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: antonio-hw.apps.demo.tryglueops.onglueops.com
