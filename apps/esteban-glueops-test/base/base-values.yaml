@@ -1,0 +1,3 @@
+image:
+  repository: esteban-glueops-test
+  port: 80

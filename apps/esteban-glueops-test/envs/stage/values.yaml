@@ -1,0 +1,9 @@
+image:
+  tag: 31578c3
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: esteban-glueops-test-stage.apps.demo.tryglueops.onglueops.com
