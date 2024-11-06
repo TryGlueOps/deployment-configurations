@@ -1,4 +1,3 @@
 image:
-  #repository: olarashared
-  repository: OLaraShared
+  repository: olarashared
   port: 80
