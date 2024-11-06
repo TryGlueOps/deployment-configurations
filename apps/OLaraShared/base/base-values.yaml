@@ -1,0 +1,3 @@
+image:
+  repository: OLaraShared
+  port: 80

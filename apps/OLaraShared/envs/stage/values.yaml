@@ -1,0 +1,9 @@
+image:
+  tag: f916c4b
+ingress:
+  enabled: true
+  ingressClassName: public
+  entries:
+    - name: public
+      hosts:
+        - hostname: olarashared-stage.apps.demo.tryglueops.onglueops.com
