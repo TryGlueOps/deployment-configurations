@@ -1,0 +1,3 @@
+image:
+  repository: app1
+  port: 80
