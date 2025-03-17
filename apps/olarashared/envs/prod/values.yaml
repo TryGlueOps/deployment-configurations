@@ -1,9 +1,0 @@
-image:
-  tag: v1
-ingress:
-  enabled: true
-  ingressClassName: public
-  entries:
-    - name: public
-      hosts:
-        - hostname: olarashared.apps.demo.tryglueops.onglueops.com

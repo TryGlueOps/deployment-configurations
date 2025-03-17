@@ -1,9 +1,0 @@
-image:
-  tag: b70cd4c
-ingress:
-  enabled: true
-  ingressClassName: public
-  entries:
-    - name: public
-      hosts:
-        - hostname: olarashared-stage.apps.demo.tryglueops.onglueops.com
